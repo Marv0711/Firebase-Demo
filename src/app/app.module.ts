@@ -24,7 +24,7 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    provideFirebaseApp(() => initializeApp({"projectId":"da-keep-b4a9b","appId":"1:342848032853:web:d99c7d115ffe8a4623c4dc","storageBucket":"da-keep-b4a9b.appspot.com","apiKey":"AIzaSyCOLxypxtKALkOjSYXBgT6kCO1NzxGFPB0","authDomain":"da-keep-b4a9b.firebaseapp.com","messagingSenderId":"342848032853"})),
+    //provideFirebaseApp(() => initializeApp({"projectId":"da-keep-b4a9b","appId":"1:342848032853:web:d99c7d115ffe8a4623c4dc","storageBucket":"da-keep-b4a9b.appspot.com","apiKey":"AIzaSyCOLxypxtKALkOjSYXBgT6kCO1NzxGFPB0","authDomain":"da-keep-b4a9b.firebaseapp.com","messagingSenderId":"342848032853"})),
     provideFirestore(() => getFirestore()),
     provideFirebaseApp(() => initializeApp({"projectId":"danotes-4a5b2","appId":"1:821880224006:web:ec1aa70cff793883788687","storageBucket":"danotes-4a5b2.appspot.com","apiKey":"AIzaSyDMwgCQEcneEve061wpsof-ANC9sEMWdUk","authDomain":"danotes-4a5b2.firebaseapp.com","messagingSenderId":"821880224006","measurementId":"G-6VY31D3C3E"}))
   ],
